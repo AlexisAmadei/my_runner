@@ -5,11 +5,11 @@
 ##
 ##
 
-UTILS	=	../bonus/utils
+UTILS	=	utils
 
-WIN	=	../bonus/window
+WIN	=	window
 
-PARSER	=	../bonus/parser
+PARSER	=	parser
 
 SRC	=	$(PARSER)/map_parser_path.c \
 		$(PARSER)/map_parser.c \
@@ -39,11 +39,11 @@ SRC	=	$(PARSER)/map_parser_path.c \
 		$(WIN)/music/my_window_music.c \
 		$(WIN)/time/my_window_clock.c \
 		$(WIN)/my_window.c \
-		../bonus/main.c
+		main.c
 
 CFLAGS	=	-Wall -Wextra -lc_graph_prog
 
-INCLUDE =	-I ../include -o
+INCLUDE =	-I include -o
 
 LIB	=	-g -lm
 
